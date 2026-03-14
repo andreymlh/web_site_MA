@@ -1,0 +1,68 @@
+/* Поставим базовые найстройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* для того, чтоб при добавление падинга ширина box не увеличивалась */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('../img/sea_shore.jpg');
+    /* min-height: 100vh; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* фон не скролится */
+}
+
+.header {
+    margin: 10px 0px 10px 37px;
+    
+    background: rgba(255, 255, 255, 0.75);
+    /* backdrop-filter: blur(10px); */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6); */
+    width: 95%;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.header-conteiner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo-header {
+    padding-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+img {
+    width: 20%;
+    display: inline-block;
+}
+
+.logo {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #abaae6, #f2f4f4, #7fe691, #bbb085);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradientShift 5s ease infinite, float 3s ease-in-out infinite;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
