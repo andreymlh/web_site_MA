@@ -11,12 +11,13 @@
 }
 
 body {
-    background: url('../img/sea_shore.jpg');
+    background-image: url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
     height: 100vh;
-    background-size: cover; /*картинка полностью покрывает фон */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* фон не скролится */
+    background-size: 40%, cover; /*картинка полностью покрывает фон */
+    background-position: 5% 0%, right;
+
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed; /* фон не скролится */
     }
    
 .header {
