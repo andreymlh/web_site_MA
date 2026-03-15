@@ -11,13 +11,13 @@
 }
 
 body {
-    background-image: url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
+    background-image:url('/img/palm.jpg'), url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
     height: 100vh;
-    background-size: 40%, cover; /*картинка полностью покрывает фон */
-    background-position: 5% 0%, right;
+    background-size: 5%, 40%, cover; /*картинка полностью покрывает фон */
+    background-position: 95% 95%, 5% 0%, right;
 
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed, fixed; /* фон не скролится */
+    background-repeat:no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed, fixed, fixed; /* фон не скролится */
     }
    
 .header {
