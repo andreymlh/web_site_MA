@@ -78,7 +78,38 @@ header nav ul li {
     float: left; /* превращаеет вертикальный список в горизонтальный*/
 }
 
-.menu-link {
-    padding: 15px;
 
+.menu-link {
+    display: block;
+    padding: 0 25px;
+    /* height: 100%; */
+    transition: background 0.3s;
+    cursor: pointer;
+}
+.menu-link:hover {
+    background-color: rgba(150, 160, 186, 0.75);
+    
+}
+
+.menu-link-a {
+    position: absolute;
+    left: 0;
+    width: auto;
+    background: rgba(126, 126, 212, 0.75);
+    font-family: system-ui;
+    border-radius: 5px;
+    display: none;
+}
+
+.menu-link-a li {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.menu-link-a li:hover {
+    background-color: rgba(150, 160, 186, 0.75);
+}
+
+nav ul li:hover > ul {
+    display: initial; /*устанавливает свойства в начальное значение*/
 }
