@@ -26,7 +26,7 @@ body {
     left: 0;
     right: 0;
     /* width: auto; */
-    height: 37px;
+    height: 55px;
     background: rgba(255, 255, 255, 0.75);
     margin: 20px;
     border-radius: 10px;
@@ -99,7 +99,7 @@ header nav ul li {
     background: rgba(126, 126, 212, 0.75);
     font-family: system-ui;
     border-radius: 5px;
-    display: none;
+    display: none; /* скрываем выпадающее меню*/
 }
 
 .menu-link-a li {
@@ -113,4 +113,18 @@ header nav ul li {
 
 nav ul li:hover > ul {
     display: initial; /*устанавливает свойства в начальное значение*/
+}
+
+.register-btn {
+    position: absolute;
+    right: 80px;
+    width: auto;
+    height: 75%;
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #80a1ae, #37aa31);
+}
+
+.register-btn:hover {
+    transform: scale(1.07);
 }
