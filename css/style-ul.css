@@ -130,13 +130,13 @@ nav ul li:hover > ul {
 .compass {
     position: absolute;
     top: 0px;
-    left: 376px;
+    left: 50%;
     height: 100%;
     width: 100%;
 }
 .compass-img {
     height: 33%;
-    width: 33%;
+    width: auto;
 }
 /* .compass:hover {
     transform: scale(1.1);
