@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image:url('/img/palm.jpg'), url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
+    background-image:url('/img/palm1.png'), url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
     height: 100vh;
     background-size: 5%, 40%, cover; /*картинка полностью покрывает фон */
     background-position: 95% 95%, 5% 15%, right;
@@ -127,3 +127,17 @@ nav ul li:hover > ul {
 .register-btn:hover {
     transform: scale(1.07);
 }
+.compass {
+    position: absolute;
+    top: 0px;
+    left: 376px;
+    height: 100%;
+    width: 100%;
+}
+.compass-img {
+    height: 33%;
+    width: 33%;
+}
+/* .compass:hover {
+    transform: scale(1.1);
+} */
