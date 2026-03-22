@@ -14,7 +14,7 @@ body {
     background-image:url('/img/palm.jpg'), url('/img/zakat.jpg'), url('/img/sea_shore.jpg');
     height: 100vh;
     background-size: 5%, 40%, cover; /*картинка полностью покрывает фон */
-    background-position: 95% 95%, 5% 0%, right;
+    background-position: 95% 95%, 5% 15%, right;
 
     background-repeat:no-repeat, no-repeat, no-repeat;
     background-attachment: fixed, fixed, fixed; /* фон не скролится */
@@ -82,14 +82,13 @@ header nav ul li {
 
 .menu-link {
     display: block;
-    padding: 0 25px;
-    /* height: 100%; */
+    padding: 9px 28px;
+    height: 100%;
     transition: background 0.3s;
     cursor: pointer;
 }
 .menu-link:hover {
     background-color: rgba(150, 160, 186, 0.75);
-    
 }
 
 .menu-link-a {
