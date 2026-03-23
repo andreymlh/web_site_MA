@@ -18,6 +18,9 @@ body {
 
     background-repeat:no-repeat, no-repeat, no-repeat;
     background-attachment: fixed, fixed, fixed; /* фон не скролится */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     }
    
 .header {
@@ -141,3 +144,23 @@ nav ul li:hover > ul {
 /* .compass:hover {
     transform: scale(1.1);
 } */
+.main {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.main-section {
+    width: 75%;
+}
+.main-aside {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(141, 98, 98, 0.2);
+}
